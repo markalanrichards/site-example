@@ -1,0 +1,13 @@
+start
+if (Shopping) then (view products)
+  :Product Catalog;
+elseif (About) then (company information)
+  :About Page;
+elseif (Basket) then (open basket)
+  :Basket;
+else (default)
+  :Product Catalog;
+endif
+
+
+stop
